@@ -44,33 +44,63 @@ export default {
         },
         {
             // The display name for this field
-            title: "Usage",
+            title: "Aspect Ratio",
 
             // The identifier for this field used in the api's
-            name: "usage",
+            name: "aspectRatio",
 
             // The type of this field
             type: "string",
         },
         {
             // The display name for this field
-            title: "Width in Pixels for 300 DPI",
+            title: "Color Space",
 
             // The identifier for this field used in the api's
-            name: "pixelWidth",
+            name: "colorSpace",
 
             // The type of this field
             type: "string",
         },
         {
             // The display name for this field
-            title: "Height in Pixels for 300 DPI",
+            title: "Length",
 
             // The identifier for this field used in the api's
-            name: "pixelHeight",
+            name: "lengthSec",
 
             // The type of this field
             type: "string",
+        },
+        {
+            // The display name for this field
+            title: "Frames per Second",
+
+            // The identifier for this field used in the api's
+            name: "fps",
+
+            // The type of this field
+            type: "string",
+        },
+        {
+            // The display name for this field
+            title: "Max File Size",
+
+            // The identifier for this field used in the api's
+            name: "maxFileSize",
+
+            // The type of this field
+            type: "string",
+        },
+        {
+            // The display name for this field
+            title: "Helpful Links",
+
+            // The identifier for this field used in the api's
+            name: "helfulLinks",
+
+            // The type of this field
+            type: "text",
         }
     ]
 }

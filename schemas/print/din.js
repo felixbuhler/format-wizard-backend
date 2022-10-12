@@ -73,6 +73,16 @@ export default {
             type: "string",
         },
         {
+            // The display name for this field
+            title: "Example Projects",
+
+            // The identifier for this field used in the api's
+            name: "exampleProjects",
+
+            // The type of this field
+            type: "text",
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
